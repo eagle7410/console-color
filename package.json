@@ -1,0 +1,19 @@
+{
+  "name": "console-color",
+  "version": "1.0.0",
+  "description": "show different colors message in console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagle7410/console-color.git"
+  },
+  "author": "Igor Stcherbina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eagle7410/console-color/issues"
+  },
+  "homepage": "https://github.com/eagle7410/console-color#readme"
+}
