@@ -37,11 +37,14 @@ class ConsoleColorLog {
 	info (text, data) {
 		this._log('blue', text, data);
 	}
+
+	q (text, data) {
+		this._log('puple', text, data);
+	}
+
 	_log (color, text, data = '') {
 		console.log(ConsoleColorLog.getColorString(color, text), data);
 	}
 }
 
-module.exports = {
-	ConsoleColorLog
-};
+module.exports = ConsoleColorLog;
